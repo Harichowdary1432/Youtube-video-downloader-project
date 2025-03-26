@@ -18,7 +18,7 @@ def open_file_dialog():
         print(f"Selected folder: {folder}")
     return folder
 
-if __name__ == "__main__":  # Fixed the syntax error
+if __name__ == "__main__": 
     root = tk.Tk()
     root.withdraw()  # Hide the Tkinter root window
 
